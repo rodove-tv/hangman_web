@@ -5,9 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/styles_hangman.css"/>
 </head>
 <body>
-    <h1>Hangman</h1>
+    <header>
+        <h1>Hangman</h1>
+    </header>
+    
+    <div class = "word">
+        <form method="post">
+            <label for="name">name:</label>
+            <input type="text" id="name" name="name" required>
+            <button type="submit">Submit</button>
+        </form>
+    
+        <!-- Ajout du div pour afficher le résultat -->
+        <div id="result"></div>
+        <p>Previous failed attempts :</p>
+    </div>
+
     <p>test</p>
+    
 </body>
 </html>
